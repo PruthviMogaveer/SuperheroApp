@@ -1,64 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.header{
+.header {
   text-align: center;
-    margin:20px 0px;
+  margin: 20px 0px;
 }
-.header h2{
-    text-transform: capitalize;
-    font-size:2rem;
-    font-weight: 600;
-    padding: 15px;
+.header h2 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 15px;
 }
-.header p{
-    font-size: 1.1rem;
-    font-weight: 300;
-    padding: 10px;
-background-color: rgb(255, 255, 143);
+.header p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  padding: 10px;
+  background-color: rgb(255, 255, 143);
 }
-.content{
-    text-align: center;
-    padding: 10px;
-   
+.content {
+  text-align: center;
+  padding: 10px;
 }
-.inputHero{
- outline: none; 
- height: 30px;  
- width: 250px;
- padding: 10px;
- font-size: 15px;
- font-weight: 400;
- color: rgb(133, 130, 130);
+.inputHero {
+  outline: none;
+  height: 30px;
+  width: 250px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(133, 130, 130);
 }
-.searchHero{
-    height: 30px;  
- width: auto;
- padding: 0 10px;
- font-size: 15px;
- background-color: rgb(250, 250, 61);
- color: rgb(58, 56, 56);
- border: 0.5px solid rgb(168, 165, 165);
+.searchHero {
+  height: 30px;
+  width: auto;
+  padding: 0 10px;
+  font-size: 15px;
+  background-color: rgb(250, 250, 61);
+  color: rgb(58, 56, 56);
+  border: 0.5px solid rgb(168, 165, 165);
 }
-h1{
-    padding:   20px 0;
+h1 {
+  padding: 20px 0;
 }
-#heroImg{
-    margin: 0 350px;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: rgb(255, 255, 143);
-
+#heroImg {
+  margin: 0 350px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(255, 255, 143);
+  display: none;
 }
-#heroImg img, #heroImg div{
-    margin:0 35px;
-text-align: left;
-
+#heroImg img,
+#heroImg div {
+  margin: 0 35px;
+  text-align: left;
 }
-#heroImg div p{
-    padding: 3px 0;
-    color: rgb(58, 56, 56);
+#heroImg div p {
+  padding: 3px 0;
+  color: rgb(58, 56, 56);
 }
